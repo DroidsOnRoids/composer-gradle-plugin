@@ -31,7 +31,7 @@ open class ComposerTask : JavaExec(), ComposerConfigurator {
     companion object {
         private const val MAIN_CLASS = "com.gojuno.composer.MainKt"
         private const val COMPOSER = "composer"
-        private const val ARTIFACT_DEP = "com.github.DroidsOnRoids:Composer:commander-0-1-4-SNAPSHOT"
+        private const val ARTIFACT_DEP = "com.github.DroidsOnRoids:Composer:commander-0-1-4"
         val DEFAULT_OUTPUT_DIR = File("composer-output")
 
         fun createComposerConfiguration(project: Project) {
